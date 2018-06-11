@@ -246,7 +246,7 @@ h1,h2,h3,h4,h5,h6 {
   width: 0;
 }
 .hero-home {
-  /*background-image: url(/images/bee.jpg);*/
+  background-image: url(../images/bee.jpg);
   background-position: center top;
   background-repeat: repeat-x;
   -webkit-filter: grayscale(100%);
