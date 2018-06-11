@@ -1,0 +1,36 @@
+
+/* Here's the code for hiding and showing the property copy. 
+When the checkbox is checked it will show.
+
+Instead if using display:none on .property-copy,
+we've set the max-height at zero and ovrflow hidden.
+
+Together with the :checked pseudo class, which an be used
+used to determine whether the HTML element INPUT type="checkbox" 
+has been checked or unchecked; note: we've used the FOR attribute 
+of the LABEL element to use text in the place of checkbox.
+
+
+Read more about this in the CSS tutorial section 9.5 at 
+https://www.learnenough.com/css-and-layout-tutorial?single_page=1#sec-details-mobile-dropdown
+*/
+/*
+#show,
+#hide {
+	display:none;
+}
+*/
+input {
+    display:none;
+}
+
+p#content {
+    display:none;
+}
+input#show:checked ~ p#content {
+  display:block;
+}
+
+input#hide:checked ~ p#content {
+    display:none;
+}

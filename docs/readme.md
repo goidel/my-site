@@ -1,0 +1,1 @@
+This is my first site. I'm building it using what I learned in the Learn Enough CSS & Layout tutorial. It is early days but I plan to include a blog to share the resources I've found useful while learning web development.

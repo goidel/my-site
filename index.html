@@ -1,0 +1,160 @@
+---
+layout: default
+---
+<div class="home">
+
+	<div class="full-hero hero-home">
+		<div class="hero-content">
+			<h1>Web Development</h1>
+			<ul class="social-list">
+				<li>
+					<a href="https://twitter.com/Alan_vldev?lang=en" class="social-link"><i class="fa fa-twitter"></i></i></a>
+				</li>
+				<li>
+					<a href="https://github.com/goidel" class="social-link"><i class="fa fa-github"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="home-callout">
+		<h1 class="callout-title">Front-End Developer</h1>
+		<div class="callout-copy">
+			<h3>I am a front-end web designer and developer</h3>
+			<p>
+				Skilled in web design with HTML, CSS and Javascript. I am imporving my JS skills, learning ES6, TypeScript and Angular.
+			</p>
+			<h3>Other technologies</h3>
+			<p>I am also kowledgeable in back-end development with MySQL, Object Oriented PHP and MVC frameworks.</p>
+			<h3>Goals &amp; Projects</h3>
+			<p>
+				I wish to learn the latest front-end tehnologies. I am interested in document design and information architecture. I am workng on a personal project for a web app for freelance language teachers to manage their schedules and invoices.
+			</p>
+			<h3>Background</h3>
+			<p>
+				I have a bachelor's degree in Social Anthrology and Philosophy. I am an experienced English language trainer, copy-writer and French-English translator. I have also worked in televeision post-production and scheduling.
+			</p>
+		</div>
+	</div>
+
+	<div class="home-section">
+		<h4>Most recent post</h4>
+		<div class="blog-posts">
+			<header class="post-header">
+				<h2>
+					<a href="{{ site.posts.first.url }}">
+					{{ site.posts.first.title }}</a>
+				</h2>
+				<div class="post-byline">
+					<img src="{{ site.posts.first.gravatar }}">
+					<a href="{{ site.posts.first.authorTwitter }}"
+					class="social-link"><i class="fa fa-twitter"></i></a>
+					by: {{ site.posts.first.author }}
+					<span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+				</div>
+
+			</header>
+
+			<div class="posts-image"
+			style="background-image:url({{ site.posts.first.postHero }})"></div>
+			{{ site.posts.first.excerpt }}
+
+		</div>
+	</div>
+
+	<div class="home-section">
+		<h2>WHAT I'VE LEARNED</h2>
+		<p>
+			How I learned web development (so far)
+		</p>
+
+		<div class="bio-wrapper">
+
+			<div class="bio-box">
+				<img src="http://placekitten.com/g/400/400">
+				<h3>Evening courses</h3>
+				
+				<div class="bio-copy">
+					<label for="info" id="show-info">
+						<input type=checkbox id="bio-button" class="bio-check">See info</label>
+
+						<p class="bio-text">
+							Evening courses at the Life Long Learning Center in Luxembourg. These courses are certified by the Ministry of Higher Education. I've done:
+						</p>
+						<li>HTML & CSS</li>
+						<li>User Friendly Websites with Javascript & JQuery</li>
+						<li>Notions de Graphisme</li>
+					</div>
+				</div>
+
+				<div class="bio-box">
+					<img src="http://placekitten.com/g/400/400">
+					<h3>Fit4Coding with NumericALL</h3>
+
+					<div class="bio-copy">
+						<p>
+							Cerfitifcation WebForce3: Intégratuer et Dévelppeur Web
+						</p>
+					</div>
+				</div>
+
+				<div class="bio-box">
+					<img src="http://placekitten.com/g/400/400">
+					<h3>Learn Enough to be Dangerous Tutorials</h3>
+					<div class="bio-copy">
+						<p>
+							The most awesome source of learning I've found online
+						</p>
+						<li>Dev fundamentals 1: Learn Enough Command Line</li>
+						<li>Dev fundamentals 2: Learn Enough Text Editor</li>
+						<li>Dev fundamentals 3: Learn Enough Git</li>
+						<li>Learn Enough Dev Environment</li>
+						<li>Learn Enough HTML</li>
+						<li>Learn Enough CSS &amp; Layout</li>
+					</div>
+				</div>
+
+				<div class="bio-box">
+					<img src="http://placekitten.com/g/400/400">
+					<h3>Going further</h3>
+					<div class="bio-copy">
+						<p>
+							Other courses I'm doing
+						</p>
+						<li>Learn Enough JavaScript to be Dangeraous (60 % complete)</li>
+						<li>Codecademy: JavaScript (58% complete)</li>
+						<li>Wes Bos: 30 Days Vanilla JavaScript (2 projects completed)</li>
+					</div>
+				</div>
+
+				<div class="bio-box">
+					<img src="http://placekitten.com/g/400/400">
+					<h3>Courses lined up</h3>
+					<div class="bio-copy">
+						<p>
+							As soon as I've done the above JS courses I can't wait to get into these
+						</p>
+						<li>Wes Bos: ES6 for Everybody</li>
+						<li>Wes Bos: learn Node.js</li>
+						<li>Maxiilian Schwartzmuller: Angular 6</li>
+						<li>Maxiilian Schwartzmuller: Ionic 2</li>
+					</div>
+				</div>
+
+				<div class="bio-box">
+					<img src="http://placekitten.com/g/400/400">
+					<h3>Projects</h3>
+					<div class="bio-copy">
+						<p>
+							These are the projects I'm working on
+						</p>
+						<li>Polyrhythms: a practice tool for musicians, a simple way to visualy display counting polyrhythms</li>
+						<li>Circulations: a way to visually represent different patterns for circulating notes</li>
+						<li>Freelancer: a web app for freelance language trainers to manage their schedules and easily generate invoices</li>
+						<li>Outlands: a holiday brochure website for off-planet desitinations</li>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
