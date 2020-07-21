@@ -300,9 +300,16 @@ h1,h2,h3,h4,h5,h6 {
   padding: 7vh 0;
 
 }
+
+.hc-grey {
+  /*background-color: #000;*/
+  background: #333;
+}
+
 .home-callout h3 {
-  color: red;
+  color: lightblue;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 .callout-title {
   flex: 1; /* shorthand flex setting: sets both flex-grow and flex-shrink to 1, while setting flex-basis to 0 */
