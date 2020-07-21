@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Making Dev Demos Dangerously in 2020 | Test Page</title>
+	
+	
+	<meta name="description" content="This is a dangerous site.">
+	
+	<link href="/favicon.png" rel="icon">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100|Raleway:500" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+<header class="header">
+	<nav>
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+		<label for="mobile-menu" class="show-mobile-menu">Menu</label>
+		<ul class="header-nav nav-links">
+			<li><a href="/">Profile</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/demos">Demos</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+  </ul>
+</li>
+<li><a href="">Newest Post</a></li>
+		</ul>
+	</nav>
+	<a href="/" class="header-logo">
+		<!--<img src="/images/" alt="logo"> <!--Add a logo here-->
+	</a>
+</header>
+
+<div class="content-container">
+  <h1>Demo 1</h1>
+
+<h1>Day of the week</h1>
+<p>Returns the day of the week for the given date.</p>
+<p>An alert should pop up</p>
+
+<script>
+
+function greeting(date) {
+  const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+"Thursday", "Friday", "Saturday"]; 
+
+let today = daysOfTheWeek[date.getDay()];
+
+  //alert(`Hello, world! Happy ` + today);
+
+  alert(`Hello, world! Happy ${today}`);
+
+  console.log("test");
+
+}
+
+</script>
+</div>
+   <footer class="footer">
+  <a class="footer-logo" href="/">
+    <!--<img src="/images/logo.png" alt="Learn Enough"/>-->
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Profile</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/demos">Demos</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+  </ul>
+</li>
+<li><a href="">Newest Post</a></li>
+    </ul>
+    <ul class="">
+      
+<li>
+	<a href="https://twitter.com/Alan_vldev?lang=en" class="social-link"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+	<a href="https://github.com/goidel" class="social-link"><i class="fa fa-github"></i></a>
+</li>
+    </ul>
+  </nav>
+
+  <h3>Web Developer <span>Alan Kavanagh</span></h3>
+</footer>
+</body>
+</html>
